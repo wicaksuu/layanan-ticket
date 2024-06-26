@@ -16,6 +16,12 @@ class SettingTableSeeder extends Seeder
     {
         DB::table('settings')->insert([
         [
+            'key' => 'newupdate',
+            'value' => 'updated3.1.2',
+            'created_at' => now(),
+            'updated_at' => now()
+        ],
+        [
             'key' => 'date_format',
             'value' => 'd M, Y',
             'created_at' => now(),
